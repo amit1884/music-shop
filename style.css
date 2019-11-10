@@ -2,6 +2,93 @@
 body{
     background-image:url("img/bg-img/bg-2.jpg");
 }
+
+/*navbar*/
+
+nav{
+    width:100%;
+    background:#123;
+    padding: 0 50px;
+    box-sizing:border-box;
+    display:block;
+}
+nav h1{
+    margin:0;
+    padding:15px 20px;
+    float:left;
+}
+nav h1 a{
+    color:#fff;
+    text-decoration: none;
+}
+nav ul{
+    margin:0;
+    padding:0;
+    float:right;
+}
+nav ul li{
+    list-style:none;
+    display:inline-block;
+    padding:20px 30px;
+    /* transition:.5s; */
+}
+nav ul li a{
+    color:white;
+    text-decoration:none;
+}
+nav ul li:hover{
+    background: #cc1573;
+    cursor: pointer;
+}
+.responsive-bar{
+    width:100%;
+    background:#123;
+    padding:10px 30px;
+    box-sizing: border-box;
+    display:none;
+}
+.responsive-bar h3{
+    margin:0;
+    padding:3px 0;
+    color:#fff;
+    float:left;
+}
+.responsive-bar h3 a{
+   color:#fff;
+   text-decoration: none;
+}
+.responsive-bar h4{
+    margin:0;
+    padding:5px 10px;;
+    color:#fff;
+    float:right;
+    background:#cc1573;
+    text-transform: uppercase;
+    cursor:pointer;
+}
+@media (max-width:900px){
+    nav{
+        display:none;
+    }
+    .responsive-bar{
+        display:block;
+    }
+    nav h1{
+        display:none;
+        float:none;
+    }
+    nav ul{
+        float:none;
+    }
+    nav ul li{
+        display:block;
+        text-align:center;
+        background:#123;
+        padding:15px 20px;
+        border-bottom:1px solid rgba(255,255,255,.1);
+    }
+    
+}
     .musica-btn 
     {
         background: #cc1573;
