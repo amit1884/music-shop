@@ -1,0 +1,79 @@
+
+body{
+    background-image:url("img/bg-img/bg-2.jpg");
+}
+    .musica-btn 
+    {
+        background: #cc1573;
+        background: -webkit-linear-gradient(to right, #cc1573, #5722a9);
+        background: linear-gradient(to right, #cc1573, #5722a9);
+        -webkit-transition-duration: 500ms;
+        transition-duration: 500ms;
+        position: relative;
+        z-index: 1;
+        display: inline-block;
+        min-width: 133px;
+        height: 42px;
+        color: #ffffff;
+        border: none;
+        border-radius: 0;
+        padding: 0 20px;
+        font-size: 12px;
+        line-height: 42px;
+        font-weight: 700;
+        text-transform: uppercase; 
+    }
+        .musica-btn:hover, .musica-btn:focus 
+        {
+          font-size: 12px;
+          font-weight: 700;
+          box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.3);
+          color: #ffffff; 
+        }
+        
+        /*login*/
+        
+        .login{
+            position:absolute;
+            width:400px;
+            height:400px;
+            background:transparent;
+            left:35%;
+            margin:10px;
+            padding:10px;
+        }
+        #log-user{
+            width:100%;
+            height:50px;
+            margin:10px;
+            padding:10px;
+            border:2px solid #cc1573;
+            border-radius:15px;
+            outline:none;
+            background:transparent;
+            color:white;
+        }
+.login h2{
+    color:white;
+    font-size:50px;
+}
+#log-user:hover{
+    background:white;;
+    border-radius:0;
+    transition:.8s;
+    color:#000;
+}
+/*signup*/
+.sign{
+    position:absolute;
+    width:450px;
+    height:400px;
+    background:transparent;
+    left:35%;
+    margin:10px;
+    padding:10px;
+}
+.sign h2{
+    color:white;
+    font-size:50px;
+}  
