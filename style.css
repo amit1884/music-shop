@@ -129,8 +129,9 @@ nav ul li:hover{
             height:400px;
             background:transparent;
             left:35%;
-            margin:10px;
+            margin:10px ;
             padding:10px;
+            overflow: hidden;
         }
         #log-user{
             width:100%;
@@ -142,6 +143,7 @@ nav ul li:hover{
             outline:none;
             background:transparent;
             color:white;
+            overflow: hidden;
         }
 .login h2{
     color:white;

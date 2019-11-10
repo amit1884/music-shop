@@ -5,9 +5,9 @@ include_once 'includes/dbh.inc.php';
  
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div class="col-md-12 col-sm-12">
                     <div class="login">
-                    <br><br><br><br>
+                    <br><br><br>
                         <h2>Login</h2>
                         <form action="includes/login.inc.php" method="POST">
                         <input type ="text" name ="user" placeholder=" Username" id="log-user">
@@ -17,7 +17,8 @@ include_once 'includes/dbh.inc.php';
                     </div>
                 </div>
             </div>
-            
+</div>
+           
             
             
 <?php
