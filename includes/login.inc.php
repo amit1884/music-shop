@@ -11,7 +11,7 @@ if(isset($_POST['submit']))
         exit();
     }
     else{
-        $sql = "SELECT * FROM register WHERE id = '$uid'";
+        $sql = "SELECT * FROM users WHERE user_id = '$uid'";
         $result= mysqli_query($conn,$sql);
         $resultcheck = mysqli_num_rows($result);
         if($resultcheck <1)
@@ -29,12 +29,12 @@ if(isset($_POST['submit']))
                     exit(); 
                    }
                    else if($hashedPwdCheck ==true){
-                            $_SESSION['u_id']=$row['id'];
+                            $_SESSION['u_id']=$row['user_id'];
                             $_SESSION['u_first']=$row['first'];
                             $_SESSION['u_last']=$row['last'];
                             $_SESSION['u_email']=$row['email'];
-                            $_SESSION['u_cat']=$row['category'];
-                            header("Location: ../result.php?login=success");
+                            $_SESSION['u_mobile']=$row['mobile'];
+                            header("Location:../song.php?login=success");
                             exit(); 
                    }
             }
