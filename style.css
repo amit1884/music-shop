@@ -22,6 +22,10 @@ nav h1 a{
     color:#fff;
     text-decoration: none;
 }
+nav h1 a:hover{
+    color:mediumvioletred;
+    text-decoration: none;
+}
 nav ul{
     margin:0;
     padding:0;
@@ -156,13 +160,13 @@ nav ul li:hover{
 }
 /*signup*/
 .sign{
-    position:absolute;
-    width:450px;
-    height:400px;
+    height:auto;
+    width:100%;
     background:transparent;
-    left:35%;
-    margin:10px;
+    /* margin:3px; */
     padding:10px;
+    border:1px solid #cc1573;
+    border-radius:8px;
 }
 .sign h2{
     color:white;
