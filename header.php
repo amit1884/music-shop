@@ -11,6 +11,7 @@ session_start();
     <script type ="text/javascript"src= "jquery.js"></script>
     <!-- Core Stylesheet -->
     <link rel ="stylesheet" href ="style.css">
+    <link rel ="stylesheet" href = "css/font-awesome-4.7.0/css/font-awesome.css">
 <link rel="icon" href="img/core-img/favicon.ico">
 </head>
 <body>

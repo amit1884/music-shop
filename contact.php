@@ -1,7 +1,7 @@
 <?php 
 include_once 'header.php';
 ?>
-
+<link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet"> 
 <!-- <body style = "background-image:url('img/blog-img/bg-9.jpg');"> -->
 <div class="contact">
 <img src= "img/bg-img/breadcumb4.jpg" class  ="breadcumb">
@@ -11,7 +11,12 @@ include_once 'header.php';
 <div class= "container">
 <div class= "row">
 <div class= "col-md-6 col-sm-12">
-
+<div id ="con-info">
+<p>Do You Have a Question ?</p>
+<p>Contact Us ---></p> 
+<i class ="fa fa-phone"></i>&nbsp;&nbsp;: &nbsp;&nbsp;9470943924<br>
+<i class ="fa fa-envelope"></i>&nbsp;&nbsp;: &nbsp;&nbsp;amit200@gmail.com
+</div>
 </div>
 <div class= "col-md-6 col-sm-12">
 <div class ="contact-form">
