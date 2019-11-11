@@ -2,6 +2,6 @@
 $dbServerName = "localhost";
 $dbUserName = "root";
 $dbPassword = "";
-$dbName = "jeesystem";
+$dbName = "musicshop";
 $conn = mysqli_connect($dbServerName,$dbUserName,$dbPassword,$dbName);
 ?>

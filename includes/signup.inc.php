@@ -2,18 +2,13 @@
 if(isset($_POST['submit']))
 {
     include_once 'dbh.inc.php';
+    $user = mysqli_real_escape_string($conn,$_POST['user']);
     $first = mysqli_real_escape_string($conn,$_POST['first']);
     $last = mysqli_real_escape_string($conn,$_POST['last']);
-    $father = mysqli_real_escape_string($conn,$_POST['father']);
-    $mother = mysqli_real_escape_string($conn,$_POST['mother']);
-    $gen = mysqli_real_escape_string($conn,$_POST['gender']);
-    $cat = mysqli_real_escape_string($conn,$_POST['category']);
-    $dob = mysqli_real_escape_string($conn,$_POST['dob']);
     $email = mysqli_real_escape_string($conn,$_POST['email']);
     $pwd = mysqli_real_escape_string($conn,$_POST['pwd']);
-    $mob = mysqli_real_escape_string($conn,$_POST['mobno']);
-    $add = mysqli_real_escape_string($conn,$_POST['add']);
-    if(empty($first)||empty($last)||empty($email)||empty($pwd)||empty($father)||empty($mother)||empty($dob)||empty($mob)||empty($add))
+    $mob = mysqli_real_escape_string($conn,$_POST['mob']);
+    if(empty($first)||empty($last)||empty($email)||empty($pwd)||empty($user)||empty($mob))
     {
         header("Location: ../signup.php?signup=empty");
         exit();
@@ -34,22 +29,11 @@ if(isset($_POST['submit']))
             }
               else
               {
-                  try{
                     $hashedpwd = password_hash($pwd,PASSWORD_DEFAULT);
-                    $sql= "INSERT INTO register (first,last,father,mother,dob,gender,category,mobile,email,address,password) VALUES ('$first','$last','$father','$mother','$dob','$gen','$cat','$mob','$email','$add','$hashedpwd');";
+                    $sql= "INSERT INTO users (user_id,first,last,email,password ,mobile) VALUES ('$user','$first','$last','$email','$hashedpwd','$mob');";
                     $result=mysqli_query($conn,$sql);
                     header("Location: ../signup.php?signup=success");
-            
-
-                    
                     exit();
-                  }
-                  catch(exception $e)
-                  {
-                    header("Location: ../signup.php?signup=error");
-                    exit();
-                  }
-                
               }
         }
 
