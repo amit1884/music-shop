@@ -16,7 +16,7 @@ if(isset($_POST['submit']))
         $resultcheck = mysqli_num_rows($result);
         if($resultcheck <1)
         {
-            header("Location: ../login.php?login=rollno not found");
+            header("Location: ../login.php?login=user not found");
         exit();
         }
         else{

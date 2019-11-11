@@ -19,7 +19,6 @@ session_start();
 <h1 class= "brand"><a href ="home.php">MUSICA</a></h1>
 <ul>
 <li><a href="home.php">HOME</a></li>
-<li><a href="about.php">ABOUT US</a></li>
 <li><a href="login.php">LOGIN</a></li>
 <li><a href="signup.php">SIGNUP</a></li>
 <li><a href="song.php">SONGS</a></li>
