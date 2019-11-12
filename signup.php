@@ -1,6 +1,11 @@
 <?php 
 include_once 'header.php';
 ?>
+<style>
+ body{
+    background-image:url('img/bg-img/bg-9.jpg');
+}  </style>
+<body>
 <br><br><br><br>
         <div class="container-fluid">
             <div class="row">

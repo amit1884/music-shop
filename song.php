@@ -2,6 +2,12 @@
 include_once 'header.php';
 ?>
 <!-- <link rel ="stylesheet" href= "style1.css"> -->
+<style>
+ body{
+    background-image:url('img/bg-img/bg-1.jpg');
+    overflow:hidden;
+}  </style>
+<body>
 <br><br><br><br>
 <div class = "row">
     <div class= "col-md-3 col-sm-12"></div>

@@ -2,7 +2,12 @@
 include_once 'header.php';
 include_once 'includes/dbh.inc.php';
 ?>
+<style>
+ body{
+    background-image:url('img/bg-img/bg-4.jpg');
+}  </style>
  <br><br><br><br><br>
+ <body>
         <div class="container-fluid">
             <div class="row">
                 <div class= "col-md-4 col-sm-12"></div>

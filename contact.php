@@ -3,6 +3,11 @@ include_once 'header.php';
 ?>
 <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet"> 
 <!-- <body style = "background-image:url('img/blog-img/bg-9.jpg');"> -->
+<style>
+ body{
+    background-image:url('img/bg-img/bg-2.jpg');
+}  </style>
+<body>
 <div class="contact">
 <img src= "img/bg-img/breadcumb4.jpg" class  ="breadcumb">
 <center><h1 class="musica-btn contact-head">CONTACT</h1></center>
