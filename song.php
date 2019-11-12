@@ -2,6 +2,7 @@
 include_once 'header.php';
 ?>
 <!-- <link rel ="stylesheet" href= "style1.css"> -->
+<link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
 <style>
  body{
     background-image:url('img/bg-img/bg-1.jpg');
@@ -9,16 +10,21 @@ include_once 'header.php';
 }  </style>
 <body>
 <br><br><br><br>
-<div class = "row">
-    <div class= "col-md-3 col-sm-12"></div>
-    <div class ="col-md-6 col-sm-12">
-    <div class ="audio-palyer">
+<div class="row">
+        <div class ="col-sm-12">
+            <center>
+                <p id ="song-head">
+                Our Music Your Melody</p>
+            </center>
+</div>
+    </div>
+    <br>
+<div class ="container">
     <div class ="row">
-    <div class ="col-md-6 col-sm-12">
-    <div class ="playlist">
-        <h1>PLAYLIST</h1>
-        <div class ="songlist">
-        <?php 
+        <div class ="col-md-6 col-md-12">
+            <div class= "songlist">
+
+            <?php 
          $song_url='song-data.json';
          $song_json=file_get_contents($song_url);
          $song_array=json_decode($song_json,true);
@@ -28,25 +34,16 @@ include_once 'header.php';
              >';
             echo $song['song'];
             echo '<br>';
-            
-           
          }
-        ?>
+        ?> 
         </div>
         </div>
-    </div>
-    <div class ="col-md-6 col-sm-12">
-        <div class = "player">
-    <h1>MUSIC PALYER</h1>
-        <div class= "cover-img">
-    <img src ="http://hck.re/kWWxUI" alt = "no preview" width= "400" height= "400">
+        <div class ="col-md-6 col-md-12">
+            <img src = "img/blog-img/4.jpg" alt ="N/A" class= "cover-img">
+            <audio controls>
+                <source src="">
+            </audio>
+
+        </div>
 </div>
-    <audio controls>
-        <source src ="http://hck.re/Rh8KTk">
-    </audio>
-</div>
-    </div>
-    </div>
-    </div>
-    </div>
 </div>

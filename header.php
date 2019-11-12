@@ -12,6 +12,7 @@ session_start();
     <!-- Core Stylesheet -->
     <link rel ="stylesheet" href ="style.css">
     <link rel ="stylesheet" href = "css/font-awesome-4.7.0/css/font-awesome.css">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
 <link rel="icon" href="img/core-img/favicon.ico">
 </head>
 <body>

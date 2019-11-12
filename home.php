@@ -5,6 +5,11 @@ include_once 'header.php';
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
+<!-- <style>
+ body{
+    background-image:url('img/bg-img/bg-8.jpg');
+}  </style> -->
+<body>
     <div id="carouselFade" class="carousel slide carousel-fade" data-ride="carousel">
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
@@ -38,12 +43,31 @@ include_once 'header.php';
             <span class="sr-only">Next</span>
         </a>
     </div>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<section>
+    <div class ="container">
+        <div class= "row">
+            <div class ="col-md-6 col-sm-12">
+                <div class ="about">
+
+
+            </div>
+            </div>
+            <div class ="col-md-6 col-sm-12">
+                <div class ="artist">
+                <h1>Artists</h1>
+
+                    
+                    
+            </div>
+            </div>
+</div>
+</div>
+</section>
+
+ <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-
-
 
 <script type = "text/javascript">
 $('#carouselFade').carousel();
