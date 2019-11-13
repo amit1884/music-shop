@@ -186,6 +186,6 @@ svg {
   <br><br>
   <br><br>
   
-<center><a href = "login.php" style="color:white;text-decoration:none;font-size:15px;">
+<center><a href = "home.php" style="color:white;text-decoration:none;font-size:15px;">
 <button class ="musica-btn">Explore</button></a></center>
     

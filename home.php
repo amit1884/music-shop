@@ -5,10 +5,6 @@ include_once 'header.php';
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
-<!-- <style>
- body{
-    background-image:url('img/bg-img/bg-8.jpg');
-}  </style> -->
 <body>
     <div id="carouselFade" class="carousel slide carousel-fade" data-ride="carousel">
         <!-- Wrapper for slides -->
@@ -43,21 +39,41 @@ include_once 'header.php';
             <span class="sr-only">Next</span>
         </a>
     </div>
-<section>
+<section class ="section-1">
     <div class ="container">
         <div class= "row">
-            <div class ="col-md-6 col-sm-12">
-                <div class ="about">
-
-
-            </div>
-            </div>
-            <div class ="col-md-6 col-sm-12">
+            <div class ="col-md-5 col-sm-12">
+                <h1>Trending Singers</h1>
+                    <div class ="singer">
+                        <img src = "img/blog-img/ar.jpg" alt ="not Available" class ="alb-cov">
+                        <img src = "img/blog-img/din.jpg" alt ="not Available" class ="alb-cov">
+                        <img src = "img/blog-img/si.jpg" alt ="not Available" class ="alb-cov">
+                        <img src = "img/blog-img/sing.jpg" alt ="not Available" class ="alb-cov">
+                        <img src = "img/blog-img/twp.jpg" alt ="not Available" class ="alb-cov">
+                        <img src = "img/blog-img/rahat.jpg" alt ="not Available" class ="alb-cov">
+                    </div>
+</div>
+            
+            <div class ="col-md-7 col-sm-12">
                 <div class ="artist">
-                <h1>Artists</h1>
-
-                    
-                    
+                <h1>Upcoming Playlist</h1>
+                <table class ="up-table">
+                    <tr>
+                        <td><img src = "img/blog-img/don.webp" alt ="not Available" class ="up-cov"></td>
+                        <td><h3>The same way</h3></td>
+                        <td><button class = "musica-btn">Book Now</button></td>
+                    </tr>
+                    <tr>
+                        <td><img src = "img/blog-img/maroo.jpg" alt ="not Available" class ="up-cov"></td>
+                        <td><h3>Memories</h3></td>
+                        <td><button class = "musica-btn">Book Now</button></td>
+                    </tr>
+                    <tr>
+                        <td><img src = "img/blog-img/tatoo.jpg" alt ="not Available" class ="up-cov"></td>
+                        <td><h3>Tattoos And Taquila</h3></td>
+                        <td><button class = "musica-btn">Book Now</button></td>
+                    </tr>
+                </table>    
             </div>
             </div>
 </div>
