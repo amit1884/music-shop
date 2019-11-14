@@ -79,6 +79,62 @@ include_once 'header.php';
 </div>
 </div>
 </section>
+<section class ="section-2">
+<br>
+<div class ="container">
+<div class= "row">
+<div class ="col-md-6 col-sm-12">
+<div class ="app">
+<img src ="img/blog-img/mockup-iphone.png">
+</div>
+</div>
+<div class ="col-md-6 col-sm-12">
+<div class ="down-app">
+<div id ="con-info">
+<h3 style = " fon-size:15px;">Downlaod Our App Now</h3>
+<h4>Enjoy The latest Music</h4> 
+<h2 style = "color:#cc1573; fon-size:25px;">Music</h2>
+<p>Musica app plus is a app that lets you download
+ videos and music from social network, Youtube, etc.
+  You may also download and play the latest HD series and movies, 
+  and also watch free live television.
+   This app is  available for Android and Ios.
+</p>
+<a href ="www.playstore.com"><img src ="img/blog-img/google-play.png"></a>
+<a href ="www.appstore.com"><img src ="img/blog-img/app-store.png"></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</section>
+<section class ="section-3">
+
+<div class ="container">
+<div class= "row">
+<div class ="col-md-12 col-sm-12">
+<div class ="in-post">
+<h1>Social Media Posts</h1>
+<img src ="img/blog-img/ar.jpg" width = "150" height="150">
+<img src ="img/blog-img/rahat.jpg"  width = "150" height="150">
+<img src ="img/bg-img/2.jpg" width = "150" height="150">
+<img src ="img/blog-img/5.jpg"  width = "150" height="150">
+<img src ="img/blog-img/6.jpg"  width = "150" height="150">
+<img src ="img/blog-img/7.png"  width = "150" height="150">
+<img src ="img/blog-img/25.jpg" width = "150" height="150">
+<img src ="img/blog-img/28.jpg"  width = "150" height="150">
+<img src ="img/blog-img/29.jpg" width = "150" height="150">
+<img src ="img/blog-img/35.jpg"  width = "150" height="150">
+<img src ="img/blog-img/41.jpg"  width = "150" height="150">
+<img src ="img/blog-img/54.jpg"  width = "150" height="150">
+
+</div>
+</div>
+</div>
+</div>
+
+</section>
 
  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>

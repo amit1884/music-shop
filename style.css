@@ -267,7 +267,47 @@ nav ul li:hover{
           box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.3);
           color: #ffffff; 
         }
-        
+        /*section-2 starts*/
+            .section-2{
+                background-image:url('img/bg-img/4.jpg');
+                background-attachment: fixed;
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              height:auto;
+            }
+            .app img{
+                width:600px;
+            }
+                .down-app p{
+                    font-size:30px;
+                }
+
+        /*section-2 ends*/
+        /*section-3 starts*/
+.section-3{
+    background-image:url('img/bg-img/sm.jpg');
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:500px;;
+}
+.in-post h1{
+    font-family: 'Great Vibes', cursive;
+    color:white;
+    font-size:60px;
+}
+.in-post img{
+    margin:8px;
+}
+.in-post img:hover{
+    transform: scale(1.1);
+    transition:.3s;
+}
+
+        /*section-3 ends*/
+
         /*login*/
         
         .login{
@@ -283,7 +323,7 @@ nav ul li:hover{
             height:50px;
             margin-bottom:15px;
             padding:10px;
-            border:2px solid #cc1573;
+            border:1px solid #cc1573;
             border-radius:15px;
             outline:none;
             background:transparent;
@@ -315,36 +355,41 @@ nav ul li:hover{
     color:white;
     font-size:50px;
 }  
-/*audio player*/
-.audio-player{
-    width:100%;
-    height:600px;
-    margin:2px;
-    padding:5px;
+/*playlist*/
+.playlist{
+    height:800px;
 }
-audio{
-    width:780px;
-    border-radius:0px;
+#song-head{
+    font-family: 'Great Vibes', cursive;
+    color:white;
+    font-size:70px;
 }
-.cover-img{
-    height:520px;
-    overflow:hidden;
+.playlist h1{
+    font-size:30px;
+    color:#fff;
+    font-family:'Great Vibes', cursive;
 }
-.songlist{
-    max-height:550px;
-    overflow-y:scroll;
-}
-.playlist h1,.player h1{
+.playlist h3{
+    font-size:20px;
     color:#fff;
     font-family:'Times New Roman', Times, serif;
 }
-
-#song-head{
-    font-size:50px;
-    color:white;
-    font-family: 'Great Vibes', cursive;
+.playlist button{
+    width:10px;
 }
-/*audio player ends*/
+.audio{
+    background-image:url('img/bg-img/bg-2.jpg');
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:100%;
+}
+audio{
+    width:100%;
+}
+
+/*playlist ends*/
 /*contact*/
 .breadcumb{
     height:300px;
