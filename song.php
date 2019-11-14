@@ -36,7 +36,7 @@ include_once 'header.php';
                 echo '<td><img src ="'.$song['cover_image'].'" width ="150" height = "150"></td>';
                 echo '<td><h1>'.$song['song'].'</h1><br>
                 <h3>'.$song['artists'].'</h3>
-                <br><button class= "musica-btn">BUY : $10</button></td>';
+                </td>';
                 echo '<td><button type ="submit" name ="submit" value = "'.$song['url'].'" class ="musica-btn">
                 <i class ="fa fa-play" style ="font-size:20px;"></i></button></td>';
                 echo '</tr>';

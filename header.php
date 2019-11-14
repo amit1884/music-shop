@@ -21,7 +21,13 @@ session_start();
 <h1 class= "brand"><a href ="home.php">MUSICA</a></h1>
 <ul>
 <li><a href="home.php">HOME</a></li>
-<li><a href="login.php">LOGIN</a></li>
+<?php
+    if(isset($_SESSION['u_id'])){
+        echo '<li><a href="pay.php">SHOP</a></li>';
+    }
+    else
+    echo '<li><a href="login.php">Login</a></li>';
+    ?>
 <li><a href="signup.php">SIGNUP</a></li>
 <li><a href="song.php">SONGS</a></li>
 <li><a href="contact.php">CONTACT</a></li>
