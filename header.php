@@ -23,10 +23,13 @@ session_start();
 <li><a href="home.php">HOME</a></li>
 <?php
     if(isset($_SESSION['u_id'])){
-        echo '<li><a href="pay.php">SHOP</a></li>';
+        echo ' <li><form method="POST" action="includes/logout.inc.php">
+        <button type = "submit" name = "submit" style ="background:transparent;border:none;outline:none;color:#fff;">LOGOUT</button>
+</form></li>
+<li><a href="pay.php">SHOP</a></li>';
     }
     else
-    echo '<li><a href="login.php">Login</a></li>';
+    echo '<li><a href="login.php">LOGIN</a></li>';
     ?>
 <li><a href="signup.php">SIGNUP</a></li>
 <li><a href="song.php">SONGS</a></li>

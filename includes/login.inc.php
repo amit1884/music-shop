@@ -34,7 +34,7 @@ if(isset($_POST['submit']))
                             $_SESSION['u_last']=$row['last'];
                             $_SESSION['u_email']=$row['email'];
                             $_SESSION['u_mobile']=$row['mobile'];
-                            header("Location:../song.php?login=success");
+                            header("Location:../pay.php?login=success");
                             exit(); 
                    }
             }
